@@ -47,28 +47,17 @@
       display: flex;
       justify-content: space-between;
       gap: 10px;
-      margin-top: 6px;
+      margin-top: 7px;
       font-weight: 700;
       color: #111;
       font-size: 10pt;
     }
-    .job span { font-weight: 400; }
+    .company { margin: 1px 0 0; font-size: 10pt; color: #222; }
     .dates { font-weight: 400; white-space: nowrap; color: #333; font-size: 9.2pt; }
     .loc { font-style: italic; color: #555; font-size: 8.8pt; margin: 1px 0 2px; }
     ul { margin: 0 0 2px; padding-left: 16px; }
     li { margin-bottom: 1px; }
     .skills p { margin-bottom: 2px; font-size: 9.4pt; }
-    .footer {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 10px;
-      margin-top: 8px;
-      padding-top: 6px;
-      border-top: 1px solid #ddd;
-    }
-    .footer img { width: 64px; height: 64px; }
-    .footer .qr-meta { font-size: 8.5pt; color: #555; line-height: 1.35; }
     @media print {
       body { padding: 0; max-width: none; }
       a { color: #0563C1; }
@@ -103,9 +92,10 @@
   <h2>Professional Experience</h2>
   
   <div class="job">
-    <div>Senior React Native Developer <span>| Nextwo</span></div>
+    <div>Senior React Native Developer</div>
     <div class="dates">Apr 2026 – Present</div>
   </div>
+  <p class="company">Nextwo</p>
   <p class="loc">Partnering with ELM (Saudi Arabia) | Remote / Amman</p>
   <ul>
     <li>Deliver React Native features for the ZATCA project with ELM, supporting enterprise tax and e-invoicing workflows.</li>
@@ -114,9 +104,10 @@
   </ul>
 
   <div class="job">
-    <div>Senior React Native Developer <span>| Astek – Aspire</span></div>
+    <div>Senior React Native Developer</div>
     <div class="dates">Sep 2025 – Apr 2026</div>
   </div>
+  <p class="company">Astek – Aspire</p>
   <p class="loc">Amman, Jordan</p>
   <ul>
     <li>Accelerated delivery with Agile practices from prototyping through enterprise-quality testing and release.</li>
@@ -124,9 +115,10 @@
   </ul>
 
   <div class="job">
-    <div>Senior React Native Developer <span>| Smart App Holding (Sanadak)</span></div>
+    <div>Senior React Native Developer</div>
     <div class="dates">Apr 2023 – Sep 2025</div>
   </div>
+  <p class="company">Smart App Holding (Sanadak)</p>
   <p class="loc">Amman, Jordan</p>
   <ul>
     <li>Built and maintained React Native apps for diverse clients, prioritizing usability and engagement.</li>
@@ -134,18 +126,20 @@
   </ul>
 
   <div class="job">
-    <div>React Native Developer <span>| Next Stage</span></div>
+    <div>React Native Developer</div>
     <div class="dates">Oct 2022 – Apr 2023</div>
   </div>
+  <p class="company">Next Stage</p>
   <p class="loc">Amman, Jordan</p>
   <ul>
     <li>Led a team of 3 delivering cross-platform React Native apps; collaborated with design on UI/UX and REST integrations.</li>
   </ul>
 
   <div class="job">
-    <div>Full Stack Developer <span>| CSCBeyond</span></div>
+    <div>Full Stack Developer</div>
     <div class="dates">Mar 2022 – Oct 2022</div>
   </div>
+  <p class="company">CSCBeyond</p>
   <p class="loc">Amman, Jordan</p>
   <ul>
     <li>Contributed to mobile and full-stack feature delivery in a collaborative engineering team.</li>
@@ -157,13 +151,5 @@
     <div class="dates">2017 – 2021</div>
   </div>
   <p class="loc">Ma'an, Jordan</p>
-
-  <div class="footer">
-    <img src="cv-qr.png" alt="QR code linking to online CV" width="64" height="64" />
-    <div class="qr-meta">
-      <strong>Scan to view online CV</strong><br />
-      <a href="https://m-albasti.github.io/cv/">m-albasti.github.io/cv/</a>
-    </div>
-  </div>
 </body>
 </html>
